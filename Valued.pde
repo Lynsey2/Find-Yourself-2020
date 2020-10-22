@@ -1,6 +1,5 @@
 // the image to asciify
 PImage img;
-PImage img2;
  
 // sampling resolution: colors will be sampled every n pixels 
 // to determine which character to display
@@ -10,7 +9,7 @@ int resolution = 10;
 char[] ascii;
  
 void setup() {
-  img = loadImage("LIT-test-screens-3-03.jpg");
+  img = loadImage("LIT_TestScreen.png");
   size(1200,850);
   background(255);
   fill(0);
